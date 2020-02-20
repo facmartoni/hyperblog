@@ -1,26 +1,27 @@
 body {
-  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
 
 #cabecera {
-  background-color: #33a;
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 5, 49);
   color: white;
   font-weight: bold;
+  font-size: 30px;
   margin: 0;
   padding: 0.5em;
-}
-
-#cabecera #tagline {
-  margin: 0 0 0 1em;
-  padding: 0 0 0 1em;
-  font-weight: normal;
-  font-size: 0.8em;
+  text-transform: uppercase;
+  border: 1px solid #EEE;
 }
 
 #container {
@@ -29,8 +30,9 @@ body {
   text-align: left;
   border: 1px solid #ddd;
   margin: 0 auto;
+  font-size: 20px;
 }
 
 #container h1 {
-  font-size: 20px;
+  font-size: 40px;
 }
