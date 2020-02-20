@@ -38,5 +38,10 @@ body {
 }
 
 footer {
-  background-color: #33a;
+  background-color: rgb(49, 5, 49);
+  height: 60px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
